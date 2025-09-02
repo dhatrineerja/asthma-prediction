@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual env
+venv/
+.env/
+.venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.tmp
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Model files - ignore all except the one you want for deployment
+*.pkl
+*.joblib
+!models/best_model.pkl
+
+# Streamlit secrets (if you add later)
+.streamlit/secrets.toml
